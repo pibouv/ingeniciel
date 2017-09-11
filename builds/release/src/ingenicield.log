@@ -1,0 +1,25 @@
+2017-Sep-11 15:44:26.734260 INFO    [daemon] ingeniciel v2.1.1.1245 ()
+2017-Sep-11 15:44:26.734493 INFO    [daemon] Module folder: ./ingenicield
+2017-Sep-11 15:44:26.734688 INFO    [RocksDBWrapper] Opening DB in /home/pierre/.ingeniciel/DB
+2017-Sep-11 15:44:26.962704 INFO    [RocksDBWrapper] DB opened in /home/pierre/.ingeniciel/DB
+2017-Sep-11 15:44:26.962987 INFO    [daemon] Initializing core...
+2017-Sep-11 15:44:26.972464 INFO    [Core] Blockchain storage and root segment are on different chains. Cutting root segment to common block index 0 and reimporting blocks
+2017-Sep-11 15:44:26.972687 INFO    [daemon] Core initialized OK
+2017-Sep-11 15:44:26.972835 INFO    [daemon] Initializing p2p server...
+2017-Sep-11 15:44:26.980395 INFO    [node_server] Binding on 0.0.0.0:37398
+2017-Sep-11 15:44:26.980604 INFO    [node_server] Net service binded on 0.0.0.0:37398
+2017-Sep-11 15:44:26.980701 INFO    [node_server] Attempting to add IGD port mapping.
+2017-Sep-11 15:44:30.985225 INFO    [node_server] No IGD was found.
+2017-Sep-11 15:44:30.985545 INFO    [daemon] P2p server initialized OK
+2017-Sep-11 15:44:30.985959 INFO    [daemon] Starting core rpc server on address 127.0.0.1:37399
+2017-Sep-11 15:44:30.986322 INFO    [daemon] Core rpc server started ok
+2017-Sep-11 15:44:30.986560 INFO    [daemon] Starting p2p net loop...
+2017-Sep-11 15:44:30.986765 INFO    [node_server] Starting node_server
+2017-Sep-11 15:44:53.244189 INFO    [node_server] Stop signal sent
+2017-Sep-11 15:44:53.244461 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2017-Sep-11 15:44:53.244782 INFO    [node_server] NodeServer loop stopped
+2017-Sep-11 15:44:53.244943 INFO    [daemon] p2p net loop stopped
+2017-Sep-11 15:44:53.245085 INFO    [daemon] Stopping core rpc server...
+2017-Sep-11 15:44:53.245288 INFO    [daemon] Deinitializing p2p...
+2017-Sep-11 15:44:53.246479 INFO    [RocksDBWrapper] Closing DB.
+2017-Sep-11 15:44:53.506671 INFO    [daemon] Node stopped.
